@@ -1,17 +1,17 @@
-# 🌱 Roots - AI Wellness Companion & 3D Adventure
+# 🌱 Roots - AI Wellness Companion
 
 <div align="center">
 
 ![Roots Logo](assets/logo.png)
 
-**An AI-powered wellness companion that combines mental health support with immersive 3D community exploration.**
+**An AI-powered wellness companion that combines mental health support with community exploration.**
 
 [![React Native](https://img.shields.io/badge/React%20Native-0.73.6-blue.svg)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-~52.0.0-black.svg)](https://expo.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3.0-blue.svg)](https://www.typescriptlang.org/)
 [![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-4.91.1-green.svg)](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 
-[🚀 Demo](#-demo) • [✨ Features](#-features) • [🛠️ Installation](#-installation) • [🎮 3D Game](#-3d-adventure) • [🤖 AI Features](#-ai-capabilities) • [📱 Screenshots](#-screenshots)
+[🚀 Demo](#-demo) • [✨ Features](#-features) • [🛠️ Installation](#-installation) • [🤖 AI Features](#-ai-capabilities) • [📱 Screenshots](#-screenshots)
 
 </div>
 
@@ -162,11 +162,11 @@ const mediationScript = await generateConflictMediationScript(
 
 <div align="center">
 
-| Onboarding Flow | 3D World Prototype | Companion Selection |
+| Onboarding Flow | Companion Selection | Community Dashboard |
 |:---:|:---:|:---:|
-| ![Onboarding](assets/onboarding-bg.jpg) | ![3D World](assets/select-comp.png) | ![Companion](assets/select-companion.png) |
+| ![Onboarding](assets/onboarding-bg.jpg) | ![Companion](assets/select-companion.png) | ![Dashboard](assets/placeholder-event.jpg) |
 
-*Note: Screenshots show current prototype state. 3D world displays basic canvas with grids and concentric circles.*
+*Note: The 3D world feature is currently a basic prototype (grids and concentric circles). Full Unity integration coming soon!*
 
 </div>
 
