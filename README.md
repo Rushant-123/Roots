@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Roots Logo](assets/logo.png)
+
 
 **An AI-powered wellness companion that combines mental health support with community exploration.**
 
