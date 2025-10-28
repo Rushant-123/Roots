@@ -164,7 +164,7 @@ const mediationScript = await generateConflictMediationScript(
 
 | Onboarding Flow | Companion Selection | Community Dashboard |
 |:---:|:---:|:---:|
-| ![Onboarding](assets/onboarding-bg.jpg) | ![Companion](assets/select-companion.png) | ![Dashboard](assets/placeholder-event.jpg) |
+| ![Onboarding](assets/onboarding-bg.jpg) | ![Companion](assets/select-companion.png) | *Coming Soon* |
 
 *Note: The 3D world feature is currently a basic prototype (grids and concentric circles). Full Unity integration coming soon!*
 
