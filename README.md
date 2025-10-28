@@ -36,11 +36,11 @@
 - **Social Matching**: Find like-minded people in your area based on interests and values
 - **Real-time Chat**: Seamless messaging with pod members
 
-### 🎮 3D Adventure Experience
-- **Immersive World**: Beautiful 3D environment with paths, water, trees, and interactive elements
-- **Companion Characters**: Meet and interact with AI companions in the 3D world
-- **Exploration**: Navigate using intuitive touch controls or device sensors
-- **Unity Integration**: Architecture ready for full Unity WebGL builds
+### 🎮 3D Adventure Experience (Prototype)
+- **Basic 3D World**: Simple HTML5 Canvas prototype with grids and concentric circles
+- **Companion Characters**: Framework for AI companions (currently placeholder)
+- **Touch Controls**: Basic navigation controls implemented
+- **Unity Ready**: Architecture prepared for full Unity WebGL integration
 
 ### 🔒 Privacy-First Design
 - **Local Processing**: Sensitive data processed on-device when possible
@@ -121,10 +121,10 @@ FIREBASE_MEASUREMENT_ID=your_measurement_id
 ## 🎮 3D Adventure
 
 ### Current Implementation
-- HTML5 Canvas-based 3D world prototype
-- Touch controls for character movement
-- Interactive companion characters
-- Responsive design for all devices
+- Basic HTML5 Canvas prototype with grids and concentric circles
+- Simple touch controls for navigation
+- Placeholder companion character system
+- Mobile-responsive design framework
 
 ### Unity WebGL Integration (Future)
 The architecture supports full Unity WebGL builds:
@@ -162,9 +162,11 @@ const mediationScript = await generateConflictMediationScript(
 
 <div align="center">
 
-| Onboarding Flow | 3D World Exploration | Community Dashboard |
+| Onboarding Flow | 3D World Prototype | Companion Selection |
 |:---:|:---:|:---:|
-| ![Onboarding](assets/onboarding-bg.jpg) | ![3D World](assets/placeholder-event.jpg) | ![Dashboard](assets/select-companion.png) |
+| ![Onboarding](assets/onboarding-bg.jpg) | ![3D World](assets/select-comp.png) | ![Companion](assets/select-companion.png) |
+
+*Note: Screenshots show current prototype state. 3D world displays basic canvas with grids and concentric circles.*
 
 </div>
 
