@@ -6,23 +6,50 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "entryPoint": "./AppEntry.js",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rushant.Roots",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Roots uses your microphone for voice journaling and stress analysis.",
+        "NSContactsUsageDescription": "Roots uses your contacts to analyze communication patterns for social wellness insights."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rushant.Roots",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_CONTACTS",
+        "android.permission.READ_CALL_LOG"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c0c0c0c0-c0c0-c0c0-c0c0-c0c0c0c0c0c0"
+      }
+    },
+    "sdkVersion": "52.0.0",
+    "plugins": [
+      "expo-notifications",
+      "expo-location",
+      "expo-image-picker",
+      "expo-camera"
+    ],
+    "newArchEnabled": true
   }
 }
